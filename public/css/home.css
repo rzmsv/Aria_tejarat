@@ -1,0 +1,36 @@
+.containermain{
+    border-top: #212529 3px solid;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+.containermain .parallax {
+    /* The image used */
+    background-image: url("../img/mainpage.jpg");
+  
+    /* Set a specific height */
+    min-height: 851px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .containermain .parallax #textOnmainPic{
+      display: none;
+      text-align: center;
+      padding-top: 400px;
+      font-size: 50px;
+      font-weight: bolder;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .containermain .parallax #smalltext{
+      display: none;
+      text-align: center;
+      padding-top: 50px;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+  }
