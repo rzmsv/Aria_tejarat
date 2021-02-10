@@ -1,3 +1,7 @@
+.clearfix{
+    float: none;
+    clear: both;
+}
 .containermain{
     border-top: #212529 3px solid;
     position: absolute;
@@ -34,3 +38,102 @@
       font-size: 15px;
       font-family: 'Times New Roman', Times, serif;
   }
+  .containermain .service{
+      height: 320px;
+  }
+  .containermain .service .serviceBox1 {
+      width: 1300px;
+      height: 300px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .containermain .service .serviceBox1 ul{
+      
+  }
+  .containermain .service .serviceBox1 ul li{
+      width: 430px;
+      height: 300px;
+      /* border: black solid 1px; */
+      display: inline-block;
+      box-sizing: border-box;
+  }
+  .containermain .service .serviceBox1 ul li img{
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 10% 0 50% 0;
+  }
+  .containermain .service .serviceBox1 ul li strong{
+      float: right;
+      margin-right: 60px;
+      margin-top: 80px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #202020;
+  }
+  .containermain .service .serviceBox1 ul li p{
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #696969;
+  }
+/* Footer */
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #212529;
+}
+.footer{
+    position: relative;
+    width: 1300px;
+    margin: auto;
+    height: 396px;
+    border-top: 4px solid #1a1d20;
+}
+.footer .listFooter {
+    float: right;
+    margin: 80px 50px;
+}
+.footer .listFooter .itemsFooter{
+    width: 250px;
+    float: right;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-align: right;
+}
+.footer .listFooter .itemsFooter h3{
+    float: right;
+    margin-bottom: 30px;
+    display: block;
+}
+.footer .listFooter .itemsFooter p{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6F7070;
+    text-align: right;
+    line-height: 2;
+}
+.licence{
+    height: 50px;
+    width: 1300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: solid 1px #ffffff17;
+    border-radius: 75%;
+}
+.licence p{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff62;
+}
