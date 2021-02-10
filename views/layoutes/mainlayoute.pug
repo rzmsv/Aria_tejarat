@@ -4,8 +4,19 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style.
+            @font-face {
+            font-family: 'aria-tejarat';
+            src: url('fonts/fonts/eot/IRANSansWeb.eot'); /* IE9 Compat Modes */
+            src: url('fonts/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/fonts/woff/IRANSansWeb.woff') format('woff'), /* Pretty Modern Browsers */
+            url('fonts/fonts/ttf/IRANMarker.ttf')  format('truetype'), /* Safari, Android, iOS */
+            url('fonts/fonts/eot/IRANSansWeb.svg#svgFontName') format('svg'); /* Legacy iOS */
+            }
         link(rel="stylesheet", href="css/mainlayout.css")
         link(rel="stylesheet", href="css/home.css")
+        link(rel="stylesheet", href="css/footer.css")
         link(rel="stylesheet", href="css/reset.css")
         title آریا تجارت مشیز ارس
    block style
@@ -20,28 +31,28 @@ html(lang="en")
                      .row
                         ul
                            li 
-                              a.menu(href="#") درباره ما
+                              a.dropdownMenu(href="#") درباره ما
                            li 
-                              a.menu(href="#") تارخیچه شرکت
+                              a.dropdownMenu(href="#") تارخیچه شرکت
                            li 
-                              a.menu(href="#") چشم انداز
+                              a.dropdownMenu(href="#")   چشم انداز
                            li 
-                              a.menu(href="#") بازاریابی
+                              a.dropdownMenu(href="#") بازاریابی
                            li 
-                              a.menu(href="#") توزیع مویرگی
+                              a.dropdownMenu(href="#") توزیع مویرگی
                            li 
-                              a.menu(href="#") فروشگاه اینترنتی
+                              a.dropdownMenu(href="#") فروشگاه اینترنتی
                            li 
-                              a.menu(href="#") فرصت های شغلی
+                              a.dropdownMenu(href="#") فرصت های شغلی
                .dropdown
                   button.dropbtn محصولات
                   .dropdown-content
                      .row 
                         ul 
                            li 
-                              a.menu(href="#") واحد بازرگانی
+                              a.dropdownMenu(href="#") واحد بازرگانی
                            li 
-                              a.menu(href="#") واحد تولیدی
+                              a.dropdownMenu(href="#") واحد تولیدی
                a.menu(href="#") وبلاگ
                a.menu(href="#") ارتباط با ما
                .clearfix 

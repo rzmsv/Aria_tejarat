@@ -1,6 +1,6 @@
 body{
     background-color:#FFFFFF;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: aria-tejarat;
     box-sizing: border-box;
 }
 .clearfix{
@@ -15,6 +15,7 @@ nav{
     height:60px;
     padding-top: 15px;
     margin: auto;
+    border-bottom: #1316431e 1.5px solid;
     /* background-color: #131643; */
 }
 .dropdown {
@@ -29,21 +30,23 @@ nav{
     color:#131643;
     padding: 14px 16px;
     background-color: inherit;
-    font: inherit;
-    margin: 0;
+    font: aria-tejarat;
+    margin: 0 10px 5px 10px;
     background-color: #ffffff1f;
     border-radius: 10px;
 }
 .dropdown:hover .dropbtn {
+    /* margin: 0 5px; */
     background-color: #ffffff75;
     color: #131643;
     border-radius: 10px;
     transition: 1s;
 }
 .dropdown-content {
-    margin-left: -22px;
+    margin-left: -14px;
     /* float: left; */
     display: none;
+    border-radius: 4px;
     position: absolute;
     background-color: #f9f9f9;
     width: 150px;
@@ -51,6 +54,8 @@ nav{
     z-index: 1;
   }
 .navbar .menu{
+    font-family: aria-tejarat;
+    margin: 0 10px;
     font-weight: bolder;
     font-size: 16px; 
     border: none;
@@ -71,35 +76,38 @@ nav{
 .dropdown:hover .dropdown-content {
     transition: 1s;
     display: block;
+    width: 140px;
+    background-color: #ffffff75;
 }
 .row ul{
 }
 .row ul li{
     float: right;
+    margin: 5px;
 }
-.row ul li .menu {
-    font-size: 15px;
+.row ul li:hover{
+}
+.row ul li .dropdownMenu {
+    font-family: aria-tejarat;
+    text-decoration: none;
+    font-size: 17px;
     color: rgb(66, 66, 66);
     display: block;
+    text-align: right;
+    margin: 5px 0;
 }
-.row ul li.menu:hover {
+.row ul li .dropdownMenu:hover {
     color: black;
-    font-weight: bolder;
 }
 .logo img{
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 7px;
-    /* margin: 10px; */
+    margin: -70px 0 0 0;
     width: 100px;
-    position: absolute;
+    /* position: absolute; */
     background-color: #FFFFFF;
 }
 
-.container{
-    position: relative;
-}
-
-/* Footer */
 
 
 

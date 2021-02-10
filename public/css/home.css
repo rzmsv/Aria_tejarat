@@ -18,6 +18,7 @@
     min-height: 851px; 
   
     /* Create the parallax scrolling effect */
+    box-shadow: 0px 9px 21px -6px rgba(0,0,0,1);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,19 +30,20 @@
       padding-top: 400px;
       font-size: 50px;
       font-weight: bolder;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: aria-tejarat;
   }
   .containermain .parallax #smalltext{
       display: none;
       text-align: center;
       padding-top: 50px;
       font-size: 15px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: aria-tejarat;
   }
   .containermain .service{
-      height: 320px;
+      height: 400px;
   }
   .containermain .service .serviceBox1 {
+      padding-top: 50px;
       width: 1300px;
       height: 300px;
       margin: auto;
@@ -49,7 +51,6 @@
       margin-bottom: 20px;
   }
   .containermain .service .serviceBox1 ul{
-      
   }
   .containermain .service .serviceBox1 ul li{
       width: 430px;
@@ -66,74 +67,88 @@
   }
   .containermain .service .serviceBox1 ul li strong{
       float: right;
-      margin-right: 60px;
+      margin-right: 70px;
       margin-top: 80px;
       font-size: 30px;
       font-weight: bold;
+      font-family: aria-tejarat;
       color: #202020;
   }
   .containermain .service .serviceBox1 ul li p{
     float: right;
     display: inline-block;
-    margin-right: 10px;
+    text-align: right;
+    margin-right: 20px;
     margin-top: 10px;
+    font-family: aria-tejarat;
     font-size: 15px;
+    line-height: 2;
     color: #696969;
   }
-/* Footer */
-footer{
-    height: 400px;
-    width: 100%;
-    background-color: #212529;
+.allServices{
+        /* The image used */
+    background-image: url("../img/1.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    box-shadow: -1px -5px 15px -2px rgba(0,0,0,1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.footer{
-    position: relative;
+.containermain .allServices .serviceBox2{
     width: 1300px;
     margin: auto;
-    height: 396px;
-    border-top: 4px solid #1a1d20;
 }
-.footer .listFooter {
+.containermain .allServices .serviceBox2 h1{
+    font-family: aria-tejarat;
+    color: #FEFEFE;
     float: right;
-    margin: 80px 50px;
+    background-color: #131643da;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    margin: 30px;
 }
-.footer .listFooter .itemsFooter{
-    width: 250px;
+.containermain .allServices .serviceBox2 ul{
     float: right;
-    display: block;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #FFFFFF;
-    margin: 0 15px;
-    text-align: right;
 }
-.footer .listFooter .itemsFooter h3{
+.containermain .allServices .serviceBox2 ul li{
+    width: 430px;
+    height: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.containermain .allServices .serviceBox2 ul li img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.containermain .allServices .serviceBox2 ul li strong{
     float: right;
-    margin-bottom: 30px;
-    display: block;
+    margin: 30px 40px 10px 40px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+    background-color: #212529;
+    border-radius: 10px 10px 0 0;
+    font-family: aria-tejarat;
 }
-.footer .listFooter .itemsFooter p{
-    float: right;
-    font-size: 16px;
-    font-weight: bold;
-    color: #6F7070;
-    text-align: right;
-    line-height: 2;
+.containermain .allServices .serviceBox2 ul li p{
+   float: right;
+   text-align: right;
+   margin-right: 40px;
+   line-height: 1.5;
+   color: black;
+   background-color: rgba(255, 255, 255, 0.575);
+   border-radius: 20px 0 20px 0;
+   padding: 5px;
+   font-family: aria-tejarat;
 }
-.licence{
-    height: 50px;
-    width: 1300px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-top: solid 1px #ffffff17;
-    border-radius: 75%;
-}
-.licence p{
-    margin-top: 15px;
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff62;
-}
+
+
+
