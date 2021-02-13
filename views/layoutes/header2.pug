@@ -1,0 +1,59 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style.
+            @font-face {
+            font-family: 'aria-tejarat';
+            src: url('fonts/fonts/eot/IRANSansWeb.eot'); /* IE9 Compat Modes */
+            src: url('fonts/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/fonts/woff/IRANSansWeb.woff') format('woff'), /* Pretty Modern Browsers */
+            url('fonts/fonts/ttf/IRANMarker.ttf')  format('truetype'), /* Safari, Android, iOS */
+            url('fonts/fonts/eot/IRANSansWeb.svg#svgFontName') format('svg'); /* Legacy iOS */
+            }
+        link(rel="stylesheet", href="css/header1.css")
+        link(rel="stylesheet", href="css/about.css")
+        link(rel="stylesheet", href="css/footer.css")
+        link(rel="stylesheet", href="css/marketing.css")
+        link(rel="stylesheet", href="css/overview.css")
+        link(rel="stylesheet", href="css/store.css")
+        link(rel="stylesheet", href="css/reset.css")
+        title Document
+    body 
+        nav
+            .navbar 
+                a.menu(href="http://localhost:3000") صفحه اصلی
+                .dropdown
+                    button.dropbtn معرفی شرکت
+                    .dropdown-content
+                        .row
+                            ul
+                                li 
+                                    a.dropdownMenu(href="http://localhost:3000/about") درباره ما
+                                li 
+                                    a.dropdownMenu(href="http://localhost:3000/marketing") بازاریابی
+                                li 
+                                    a.dropdownMenu(href="http://localhost:3000/overview") توزیع مویرگی
+                                li 
+                                    a.dropdownMenu(href="http://localhost:3000/store") فروشگاه اینترنتی
+                                li 
+                                    a.dropdownMenu(href="#") فرصت های شغلی
+                .dropdown
+                    button.dropbtn محصولات
+                    .dropdown-content
+                        .row 
+                            ul 
+                                li 
+                                    a.dropdownMenu(href="#") واحد بازرگانی
+                                li 
+                                    a.dropdownMenu(href="#") واحد تولیدی
+                a.menu(href="#") وبلاگ
+                a.menu(href="#") ارتباط با ما
+                .clearfix 
+                a.logo(href="http://localhost:3000")
+                    img(src="img/logo.png", alt="Logo")
+            .clearfix
+    block header
