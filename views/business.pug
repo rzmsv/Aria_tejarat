@@ -1,0 +1,43 @@
+extend layoutes/header2.pug
+
+block header
+        .containerBusiness 
+                .business 
+                        h1 جهت همکاری با شرکت آریا تجارت مشیز ایرانیان :
+                        form(action="/business", method="post")
+                                label(for="name") نام :
+                                        input(type="text" name="name" id="name") 
+                                label(for="lastName") نام خانوادگی :
+                                        input(type="text" name="lastName" id="lastName")
+                                label(for="companyName") نام شرکت :
+                                        input(type="text" name="companyName" id="companyName")
+                                label(for="telephone") تلفن :
+                                        input(type="number" name="telephone" id="telephone")
+                                label(for="mobile") موبایل :
+                                        input(type="number" name="mobile" id="mobile")
+                                label(for="area") حوزه کاری :
+                                        input(type="text" name="area" id="area")
+                                label(for="email") ایمیل :
+                                        input(type="email" name="email" id="email")
+                                label(for="description") توضیحات :
+                                        textarea(name="description", cols="30", rows="10")
+                                label(for="address") آدرس :
+                                        textarea(name="address" id="address" , cols="30", rows="10")
+                                button ثبت همکاری
+        footer 
+                .footer 
+                        ul.listFooter 
+                                li.itemsFooter 
+                                        h3 ارتباط با دفتر مرکزی
+                                        p تهران سعادت آباد بلوار دریا مطهری شمالی کوچه عیسی پورپلاک ۶ واحد ۲
+                                li.itemsFooter 
+                                        h3 تلفن های تماس
+                                        p تلفن: ۰۲۱ ۸۸۵۶۷۱۶۳
+                                        p فکس: ۸۶۱۲۹۷۴۳
+                                li.itemsFooter 
+                                        h3 ساعات کاری
+                                        p شنبه - چهارشنبه: ۸:۳۰ صبح تا ۵ عصر
+                                        p پنجشنبه: ۸:۰۰ صبح تا ۱۲:۳۰ عصر
+                                li.itemsFooter نماد
+                                .licence
+                                        p تمامی حقوق این وبسایت متعلق به آریاتجارت مشیز ارس میباشد

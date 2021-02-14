@@ -1,0 +1,19 @@
+extend layoutes/header2.pug
+
+block header
+    .containerContact 
+        .parallax
+            main 
+                h1 تماس با ما
+                .form
+                    form(action="/contact", method="post")
+                        label(for="email") 
+                            <input (type="email" name="email" placeholder="Email")/>
+                        label(for="subject") 
+                            <input (type="text" name="subject" placeholder="Subject")/>
+                        label(for="message") 
+                            textarea(type="text",name="message" cols="30", rows="10")
+                        button send
+
+
+    
