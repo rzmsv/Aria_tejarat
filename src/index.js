@@ -39,26 +39,29 @@ app.use(businessPage)
 
 
 const port = process.env.PORT || 3000
-
-mongoose.connect(mongoUrl,{ useNewUrlParser: true })
-.then((result)=>{
-
-     // User.findById("600875aa809d4da9d7dd7792").then((user)=>{
-     //      if (!user){
-     //           const user = User.create({
-     //                name:"reza",
-     //                age:31,
-     //                mail:"reza@gmail.com",
-     //                password:"reza",
-     //                cart:{
-     //                     items:[]
-     //                }
-     //           })
-     //      }
-     // })
-     
-     app.listen(port,()=>{
-          console.log("connect to port "+port+"")
-     })
+app.listen(port,()=>{
+     console.log("connect to port "+port+"")
 })
-.catch(err => console.log(err))
+
+// mongoose.connect(mongoUrl,{ useNewUrlParser: true , useUnifiedTopology:true})
+// .then((result)=>{
+
+//      // User.findById("600875aa809d4da9d7dd7792").then((user)=>{
+//      //      if (!user){
+//      //           const user = User.create({
+//      //                name:"reza",
+//      //                age:31,
+//      //                mail:"reza@gmail.com",
+//      //                password:"reza",
+//      //                cart:{
+//      //                     items:[]
+//      //                }
+//      //           })
+//      //      }
+//      // })
+     
+//      app.listen(port,()=>{
+//           console.log("connect to port "+port+"")
+//      })
+// })
+// .catch(err => console.log(err))
