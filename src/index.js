@@ -2,9 +2,13 @@ const express = require("express");
 const http = require("http");
 const path = require("path")
 const bodyParser = require("body-parser")
+const flash = require('connect-flash');
 const mongoose = require("mongoose")
 const dotnev = require("dotenv").config();
 const pug = require("pug")
+const helmet = require("helmet");
+const cors = require("cors");
+const session = require("express-session")
 const homePage = require("../routes/home")
 const aboutPage = require("../routes/about")
 const marketingPage = require("../routes/marketing")
@@ -24,7 +28,11 @@ app.set("../views","views")
 // middlewares
 app.use(express.static(path.join(__dirname,"../public")));
 app.use(express.json())
+app.use(session({secret:"my secret",resave:false,saveUninitialized:false}))
+app.use(flash())
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(helmet());
+app.use(cors())
 
 
 // routes

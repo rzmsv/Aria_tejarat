@@ -7,13 +7,30 @@ block header
                 h1 تماس با ما
                 .form
                     form(action="/contact", method="post")
-                        label(for="email") 
+                        label(for="email") آدرس ایمیل: 
                             <input (type="email" name="email" placeholder="Email")/>
-                        label(for="subject") 
+                        label(for="subject") موضوع :
                             <input (type="text" name="subject" placeholder="Subject")/>
-                        label(for="message") 
+                        label(for="message") پیام :
                             textarea(type="text",name="message" cols="30", rows="10")
-                        button send
+                        button ارسال
+        footer 
+            .footer 
+                ul.listFooter 
+                    li.itemsFooter 
+                        h3 ارتباط با دفتر مرکزی
+                        p تهران سعادت آباد بلوار دریا مطهری شمالی کوچه عیسی پورپلاک ۶ واحد ۲
+                    li.itemsFooter 
+                        h3 تلفن های تماس
+                        p تلفن: ۰۲۱ ۸۸۵۶۷۱۶۳
+                        p فکس: ۸۶۱۲۹۷۴۳
+                    li.itemsFooter 
+                        h3 ساعات کاری
+                        p شنبه - چهارشنبه: ۸:۳۰ صبح تا ۵ عصر
+                        p پنجشنبه: ۸:۰۰ صبح تا ۱۲:۳۰ عصر
+                    li.itemsFooter نماد
+                    .licence
+                        p تمامی حقوق این وبسایت متعلق به آریاتجارت مشیز ارس میباشد
 
 
     

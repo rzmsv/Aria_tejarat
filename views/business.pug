@@ -3,8 +3,12 @@ extend layoutes/header2.pug
 block header
         .containerBusiness 
                 .business 
+                        if signupMessage 
+                                h1.signupMsg #{signupMessage}
+                        if error 
+                                h1.errorMsg #{error}
                         h1 جهت همکاری با شرکت آریا تجارت مشیز ایرانیان :
-                        form(action="/business", method="post")
+                        form(action="/business", method="post" novalidate)
                                 label(for="name") نام :
                                         input(type="text" name="name" id="name") 
                                 label(for="lastName") نام خانوادگی :
