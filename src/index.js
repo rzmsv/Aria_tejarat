@@ -16,6 +16,8 @@ const overviewPage = require("../routes/overview")
 const storePage = require("../routes/store")
 const contactPage = require("../routes/contactUs")
 const businessPage = require("../routes/business")
+const errors = require("../routes/errors")
+
 const app = express();
 const server = http.createServer(app);
 // db
@@ -45,7 +47,9 @@ app.use(contactPage)
 app.use(businessPage)
 
 
-
+// errorHandlers
+app.use(errors.error404)
+app.use(errors.error404)
 const port = process.env.PORT || 3000
 // app.listen(port,()=>{
 //      console.log("connect to port "+port+"")
