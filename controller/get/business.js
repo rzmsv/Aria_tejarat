@@ -1,4 +1,9 @@
-exports.business = (req,res,next)=>{
-    console.log(req.flash('ok'))
-    res.render("business")
+exports.business =async (req,res,next)=>{
+    try {
+        console.log(req.flash('ok'))
+        res.render("business")
+    } catch (error) {
+        console.log(error)
+        next()
+    }
 }

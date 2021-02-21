@@ -40,7 +40,7 @@ html(lang="en")
                            li 
                               a.dropdownMenu(href="http://localhost:3000/store") فروشگاه اینترنتی
                            li 
-                              a.dropdownMenu(href="#") فرصت های شغلی
+                              a.dropdownMenu(href="http://localhost:3000/business") فرصت های شغلی
                .dropdown
                   button.dropbtn محصولات
                   .dropdown-content
@@ -66,9 +66,10 @@ html(lang="en")
                      a(href="http://localhost:3000/") محصولات
                      a(href="http://localhost:3000/") وبلاگ
                      a(href="http://localhost:3000/contact") تماس با ما
-                  a.icon(href="javascript:void(0);")
+                  button.icon(href="#" ,onclick="myFunction()")
                      <i class="fa fa-bars"></i>
-   script(src="js/navbarPhone.js")
+   script(src="js/mobile.js")
+   
    block body
    .container
    block content

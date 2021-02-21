@@ -1,3 +1,8 @@
-exports.marketing = (req,res,next)=>{
-    res.render("marketing")
+exports.marketing =async (req,res,next)=>{
+    try {
+        res.render("marketing")
+    } catch (error) {
+        console.log(error)
+        next()
+    }
 }

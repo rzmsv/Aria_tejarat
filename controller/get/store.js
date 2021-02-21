@@ -1,3 +1,8 @@
-exports.store = (req,res,next)=>{
-    res.render("store")
+exports.store =async (req,res,next)=>{
+    try {
+        res.render("store")
+    } catch (error) {
+        console.log(error)
+        next()
+    }
 }

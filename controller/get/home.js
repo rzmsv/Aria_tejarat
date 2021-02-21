@@ -1,3 +1,8 @@
-exports.home = (req,res,next)=>{
-    res.render("home")
+exports.home =async (req,res,next)=>{
+    try {
+        res.render("home")
+    } catch (error) {
+        console.log(error)
+        next()
+    }
 }

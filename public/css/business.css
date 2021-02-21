@@ -97,3 +97,302 @@ body{
 .containerBusiness .business form button:hover{
     background-color: #5dfff1;
 }
+@media only screen and (max-width: 1024px) {
+    .containerBusiness {
+        height: 500px;
+        background-color: #131643;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 1400px;
+        border-radius: 0 80px 0 80px;
+    }
+    .containerBusiness .business{
+        width: 1024px;
+        margin: auto;
+        height: 1200px;
+        position: relative;
+    }
+    .containerBusiness .business .errorMsg{
+        background-color: red;
+        opacity: .6;
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 350px;
+        top: 80px;
+    }
+    .containerBusiness .business .signupMsg{
+        background-color: rgb(153, 255, 0);
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 380px;
+        top: 80px;
+    }
+    .containerBusiness .business h1{
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 20px;
+        direction: rtl;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form{
+        width: 600px;
+        height: 900px;
+        margin: auto;
+    }
+    .containerBusiness .business form label{
+        direction: rtl;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        display: block;
+        margin: 20px 20px 40px 20px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label input{
+        float: left;
+        border-radius: 20px;
+        border: none;
+        direction: ltr;
+        padding: 5px;
+        width: 390px;
+        margin-left: -74px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label textarea{
+        display: block;
+        position: relative;
+        left: -240px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-family: aria-tejarat;
+        width: 375px;
+        height: 250px;
+    }
+    .containerBusiness .business form button{
+        background-color: #7ffff4;
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: none;
+        color: #131643;
+        font-size: 20px;
+        margin-left: 45px;
+        font-weight: bold;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form button:hover{
+        background-color: #5dfff1;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .containerBusiness {
+        height: 500px;
+        background-color: #131643;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 1400px;
+        border-radius: 0 80px 0 80px;
+    }
+    .containerBusiness .business{
+        width: 786px;
+        margin: auto;
+        height: 1200px;
+        position: relative;
+    }
+    .containerBusiness .business .errorMsg{
+        background-color: red;
+        opacity: .6;
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 350px;
+        top: 80px;
+    }
+    .containerBusiness .business .signupMsg{
+        background-color: rgb(153, 255, 0);
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 380px;
+        top: 80px;
+    }
+    .containerBusiness .business h1{
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 30px;
+        direction: rtl;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form{
+        width: 600px;
+        height: 900px;
+        margin: auto;
+    }
+    .containerBusiness .business form label{
+        direction: rtl;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        display: block;
+        margin: 20px 20px 40px 20px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label input{
+        float: left;
+        border-radius: 20px;
+        border: none;
+        direction: ltr;
+        padding: 5px;
+        width: 390px;
+        margin-left: -74px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label textarea{
+        display: block;
+        position: relative;
+        left: -240px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-family: aria-tejarat;
+        width: 375px;
+        height: 250px;
+    }
+    .containerBusiness .business form button{
+        background-color: #7ffff4;
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: none;
+        color: #131643;
+        font-size: 20px;
+        margin-left: 45px;
+        font-weight: bold;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form button:hover{
+        background-color: #5dfff1;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .containerBusiness {
+        height: 800px;
+        background-color: #131643;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 1700px;
+        border-radius: 0 80px 0 80px;
+    }
+    .containerBusiness .business{
+        width: 425px;
+        margin: auto;
+        height: 1700px;
+        position: relative;
+    }
+    .containerBusiness .business .errorMsg{
+        background-color: red;
+        opacity: .6;
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 350px;
+        top: 80px;
+    }
+    .containerBusiness .business .signupMsg{
+        background-color: rgb(153, 255, 0);
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: aria-tejarat;
+        position: absolute;
+        left: 380px;
+        top: 80px;
+    }
+    .containerBusiness .business h1{
+        line-height: 1.5;
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 30px;
+        direction: rtl;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form{
+        width: 425px;
+        height: 900px;
+        margin: auto;
+    }
+    .containerBusiness .business form label{
+        display: block;
+        direction: rtl;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        display: block;
+        margin: 50px 20px 50px 20px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label input{
+        /* float: left; */
+        border-radius: 20px;
+        display: block;
+        border: none;
+        /* direction: ltr; */
+        padding: 5px;
+        width: 390px;
+        margin-left: -11px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form label textarea{
+        display: block;
+        position: relative;
+        left: 0px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        padding: 5px 10px;
+        font-family: aria-tejarat;
+        width: 375px;
+        height: 250px;
+    }
+    .containerBusiness .business form button{
+        background-color: #7ffff4;
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: none;
+        color: #131643;
+        font-size: 20px;
+        margin-left: 115px;
+        font-weight: bold;
+        font-family: aria-tejarat;
+    }
+    .containerBusiness .business form button:hover{
+        background-color: #5dfff1;
+    }
+  }

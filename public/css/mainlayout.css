@@ -18,6 +18,53 @@ nav{
     border-bottom: #1316431e 1.5px solid;
     /* background-color: #131643; */
 }
+.mobile-container {
+    display: none;
+    max-width: 425px;
+    margin: auto;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a img{
+    display: none;
+    width: 50px;
+}
+.topnav a {
+    display: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon {
+    display: none;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover {
+    display: none;
+    background-color: #ddd;
+    color: black;
+}
+.active {
+    display: none;
+    background-color: #e4e4e4;
+    color: white;
+}
 .dropdown {
     float: right;
     overflow: hidden;
@@ -119,6 +166,53 @@ nav{
         margin: auto;
         border-bottom: #1316431e 1.5px solid;
         /* background-color: #131643; */
+    }
+    .mobile-container {
+        display: none;
+        max-width: 425px;
+        margin: auto;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+    }
+    .topnav {
+        display: none;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a img{
+        display: none;
+        width: 50px;
+    }
+    .topnav a {
+        display: none;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        display: none;
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        display: none;
+        background-color: #ddd;
+        color: black;
+    }
+    .active {
+        display: none;
+        background-color: #e4e4e4;
+        color: white;
     }
     .dropdown {
         float: right;
@@ -222,6 +316,53 @@ nav{
         margin: auto;
         border-bottom: #1316431e 1.5px solid;
         /* background-color: #131643; */
+    }
+    .mobile-container {
+        display: none;
+        max-width: 425px;
+        margin: auto;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+    }
+    .topnav {
+        display: none;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a img{
+        display: none;
+        width: 50px;
+    }
+    .topnav a {
+        display: none;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        display: none;
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        display: none;
+        background-color: #ddd;
+        color: black;
+    }
+    .active {
+        display: none;
+        background-color: #e4e4e4;
+        color: white;
     }
     .dropdown {
         float: right;

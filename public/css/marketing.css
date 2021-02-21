@@ -36,3 +36,123 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+@media only screen and (max-width: 1024px) {
+    .containermarket  {
+        height: 800px;
+        background-color: #131643;
+        margin-top: 30px;
+        border-radius: 0 80px 0 80px;
+        margin-bottom: 30px;
+    }
+    .containermarket  main{
+        height: 500px;
+        width: 1024px;
+        margin: auto;
+    }
+    .containermarket  main h1 {
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 10px;
+    }
+    .containermarket  main p{
+        direction: rtl;
+        color: white;
+        font-size: 17px;
+        text-align: right;
+        padding: 10px 10px 0 20px;
+        line-height: 2;
+    }
+    .containermarket  main ul{
+        margin: 20px 0;
+    }
+    .containermarket  main ul li{
+        list-style-type: square;
+        direction: rtl;
+        margin-right: 30px;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .containermarket  {
+        height: 800px;
+        background-color: #131643;
+        margin-top: 30px;
+        border-radius: 0 80px 0 80px;
+        margin-bottom: 30px;
+    }
+    .containermarket  main{
+        height: 500px;
+        width: 768px;
+        margin: auto;
+    }
+    .containermarket  main h1 {
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 10px;
+    }
+    .containermarket  main p{
+        direction: rtl;
+        color: white;
+        font-size: 17px;
+        text-align: right;
+        padding: 10px 10px 0 20px;
+        line-height: 2;
+    }
+    .containermarket  main ul{
+        margin: 20px 0;
+    }
+    .containermarket  main ul li{
+        list-style-type: square;
+        direction: rtl;
+        margin-right: 30px;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .containermarket  {
+        height: 1100px;
+        background-color: #131643;
+        margin-top: 30px;
+        border-radius: 0 80px 0 80px;
+        margin-bottom: 30px;
+    }
+    .containermarket  main{
+        height: 1100px;
+        width: 425px;
+        margin: auto;
+    }
+    .containermarket  main h1 {
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px 10px;
+    }
+    .containermarket  main p{
+        direction: rtl;
+        color: white;
+        font-size: 17px;
+        text-align: right;
+        padding: 10px 10px 0 20px;
+        line-height: 2;
+    }
+    .containermarket  main ul{
+        margin: 20px 0;
+    }
+    .containermarket  main ul li{
+        list-style-type: square;
+        direction: rtl;
+        margin-right: 30px;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
