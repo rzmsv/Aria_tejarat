@@ -32,6 +32,11 @@
     height: 800px;
     margin: auto;
 }
+.containerContact #map{
+    width: 400px;
+    height: 100%;
+    background-color: cadetblue;
+}
 .containerContact main h1{
     color: #131643da;
     font-size: 45px;

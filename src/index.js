@@ -28,12 +28,13 @@ app.set("view engine","pug")
 app.set("../views","views")
 
 // middlewares
+
 app.use(express.static(path.join(__dirname,"../public")));
 app.use(express.json())
 app.use(session({secret:"my secret",resave:false,saveUninitialized:false}))
 app.use(flash())
 app.use(bodyParser.urlencoded({extended:false}));
-app.use(helmet());
+// app.use(helmet());
 app.use(cors())
 
 
@@ -49,7 +50,7 @@ app.use(businessPage)
 
 // errorHandlers
 app.use(errors.error404)
-app.use(errors.error404)
+// app.use(errors.error404)
 const port = process.env.PORT || 3000
 // app.listen(port,()=>{
 //      console.log("connect to port "+port+"")

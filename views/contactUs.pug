@@ -1,5 +1,19 @@
 extend layoutes/header2.pug
-
+block style
+    //- script(src="js/map.js") 
+    script.
+        function initMap() {
+        const uluru = { lat: -25.344, lng: 131.036 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+        });
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+        }
+	
 block header
     .containerContact 
         .parallax
@@ -14,6 +28,7 @@ block header
                         label(for="message") پیام :
                             textarea(type="text",name="message" cols="30", rows="10")
                         button ارسال
+        #map
         footer 
             .footer 
                 ul.listFooter 
@@ -31,6 +46,9 @@ block header
                     li.itemsFooter نماد
                     .licence
                         p تمامی حقوق این وبسایت متعلق به آریاتجارت مشیز ارس میباشد
-
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACAgsHtl1fVoQUp0yvPibuQidSie9wG8o&callback=initMap&libraries=&v=weekly" async)
+    
+    
+    
 
     
