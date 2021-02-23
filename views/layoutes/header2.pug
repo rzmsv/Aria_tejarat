@@ -23,29 +23,29 @@ html(lang="en")
         link(rel="stylesheet", href="css/contact.css")
         link(rel="stylesheet", href="css/business.css")
         link(rel="stylesheet", href="css/reset.css")
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          
         title Document
     block style
     body 
         nav
             .navbar 
-                a.menu(href="http://localhost:3000/") صفحه اصلی
+                a.menu(href="http://94.139.168.58:3000/") صفحه اصلی
                 .dropdown
                     button.dropbtn معرفی شرکت
                     .dropdown-content
                         .row
                             ul
                                 li 
-                                    a.dropdownMenu(href="http://localhost:3000about") درباره ما
+                                    a.dropdownMenu(href="http://94.139.168.58:3000/about") درباره ما
                                 li 
-                                    a.dropdownMenu(href="http://localhost:3000/marketing") بازاریابی
+                                    a.dropdownMenu(href="http://94.139.168.58:3000/marketing") بازاریابی
                                 li 
-                                    a.dropdownMenu(href="http://localhost:3000/overview") توزیع مویرگی
+                                    a.dropdownMenu(href="http://94.139.168.58:3000/overview") توزیع مویرگی
                                 li 
-                                    a.dropdownMenu(href="http://localhost:3000/store") فروشگاه اینترنتی
+                                    a.dropdownMenu(href="http://94.139.168.58:3000/store") فروشگاه اینترنتی
                                 li 
-                                    a.dropdownMenu(href="http://localhost:3000/business") فرصت های شغلی
+                                    a.dropdownMenu(href="http://94.139.168.58:3000/business") فرصت های شغلی
                 .dropdown
                     button.dropbtn محصولات
                     .dropdown-content
@@ -56,24 +56,39 @@ html(lang="en")
                                 li 
                                     a.dropdownMenu(href="#") واحد تولیدی
                 a.menu(href="#") وبلاگ
-                a.menu(href="http://localhost:3000/contact") ارتباط با ما
+                a.menu(href="http://94.139.168.58:3000/contact") ارتباط با ما
                 .clearfix 
-                a.logo(href="http://localhost:3000/")
+                a.logo(href="http://94.139.168.58:3000/")
                     img(src="img/logo.png", alt="Logo")
             .clearfix
-            .mobile-container 
+            .mobile-container
                 .topnav
-                    a.active(href="#home" class="active")
+                    a.active(href="#home")
                         img(src="img/logo.png", alt="")
-                    #myLinks 
-                        a(href="http://localhost:3000/") صفحه اصلی
-                        a(href="http://localhost:3000/") معرفی شرکت
-                        a(href="http://localhost:3000/") محصولات
-                        a(href="http://localhost:3000/") وبلاگ
-                        a(href="http://localhost:3000/contact") تماس با ما
-                    button.icon(href="#" ,onclick="myFunction()")
-                        i.fa.fa-bars
-    
+                    #myLinks
+                        a(href="http://94.139.168.58:3000/") صفحه اصلی
+                        a(href="http://94.139.168.58:3000/about") درباره ما
+                        a(href="http://94.139.168.58:3000/marketing") بازاریابی
+                        a(href="http://94.139.168.58:3000/overview") توزیع مویرگی
+                        a(href="http://94.139.168.58:3000/store") فروشگاه اینترنتی
+                        a(href="http://94.139.168.58:3000/business") فرصت های شغلی
+                        a(href="#about") واحد بازرگانی
+                        a(href="#about") واحد تولیدی
+                        a(href="http://94.139.168.58:3000/contact") ارتباط با ما
+                    a.icon(href="javascript:void(0);" onclick="myFunction()")
+                        i(class="fa fa-bars")
+        script.
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+                }
+
+
+            
     block header
         
         

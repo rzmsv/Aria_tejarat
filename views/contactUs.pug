@@ -3,15 +3,21 @@ block style
     //- script(src="js/map.js") 
     script.
         function initMap() {
-        const uluru = { lat: -25.344, lng: 131.036 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
-            center: uluru,
-        });
-        const marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-        });
+            const options = {
+                zoom: 15,
+                center:{lat: 35.808957, lng: 51.447993 }
+            };
+            const map = new google.maps.Map(document.getElementById("map"),options);
+            const marker = new google.maps.Marker({
+                position:{lat: 35.808957, lng: 51.447993 } ,
+                map: map,
+            });
+            const infoWindow = new google.maps.InfoWindow({
+                content:"<h1> هلدینگ آفرینش </h1>"
+            })
+            marker.addListener("click",function(){
+                infoWindow.open(map,marker);
+            })
         }
 	
 block header
@@ -28,7 +34,7 @@ block header
                         label(for="message") پیام :
                             textarea(type="text",name="message" cols="30", rows="10")
                         button ارسال
-        #map
+                #map
         footer 
             .footer 
                 ul.listFooter 
@@ -46,7 +52,7 @@ block header
                     li.itemsFooter نماد
                     .licence
                         p تمامی حقوق این وبسایت متعلق به آریاتجارت مشیز ارس میباشد
-    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACAgsHtl1fVoQUp0yvPibuQidSie9wG8o&callback=initMap&libraries=&v=weekly" async)
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDddetMPwZy20QtEHS-Wa7s26H9ccP7tmw&callback=initMap&libraries=&v=weekly" async)
     
     
     
