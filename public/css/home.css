@@ -18,6 +18,7 @@
     background-image: url("../img/mainpage.jpg");
   
     /* Set a specific height */
+    width: 100%;
     min-height: 851px; 
   
     /* Create the parallax scrolling effect */

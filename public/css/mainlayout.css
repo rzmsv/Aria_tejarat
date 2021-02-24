@@ -25,12 +25,13 @@ nav{
     overflow: hidden;
 }
 .dropdown .dropbtn {
+    font-family: aria-tejarat;
     font-size: 15px; 
     font-weight: bolder !important; 
     border: none;
     outline: none;
     color:#131643;
-    padding: 14px 16px;
+    padding: 7px 16px;
     background-color: inherit;
     font: aria-tejarat;
     margin: 0 10px 5px 10px;
@@ -63,7 +64,7 @@ nav{
     border: none;
     outline: none;
     float: right;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     color: #131643;
     background-color: #ffffff1f;
@@ -105,7 +106,7 @@ nav{
 .logo img{
     border-radius: 4px;
     padding: 7px;
-    margin: -70px 0 0 0;
+    margin: -60px 0 0 0;
     width: 100px;
     /* position: absolute; */
     background-color: #FFFFFF;
@@ -137,7 +138,7 @@ nav{
         border: none;
         outline: none;
         color:#131643;
-        padding: 14px 16px;
+        padding: 6px 16px;
         background-color: inherit;
         font: aria-tejarat;
         margin: 0 10px 5px 10px;
@@ -170,7 +171,7 @@ nav{
         border: none;
         outline: none;
         float: right;
-        padding: 14px 16px;
+        padding: 10px 16px;
         text-decoration: none;
         color: #131643;
         background-color: #ffffff1f;
@@ -212,7 +213,7 @@ nav{
     .logo img{
         border-radius: 4px;
         padding: 7px;
-        margin: -88px 0 0 20px;
+        margin: -70px 0 0 20px;
         width: 80px;
         /* position: absolute; */
         background-color: #FFFFFF;
@@ -247,7 +248,7 @@ nav{
         border: none;
         outline: none;
         color:#131643;
-        padding: 14px 16px;
+        padding: 4px 16px;
         background-color: inherit;
         font: aria-tejarat;
         margin: 0 10px 5px 10px;
@@ -280,7 +281,7 @@ nav{
         border: none;
         outline: none;
         float: right;
-        padding: 14px 16px;
+        padding: 8px 16px;
         text-decoration: none;
         color: #131643;
         background-color: #ffffff1f;
@@ -322,7 +323,7 @@ nav{
     .logo img{
         border-radius: 4px;
         padding: 7px;
-        margin: -88px 0 0 20px;
+        margin: -70px 0 0 20px;
         width: 80px;
         /* position: absolute; */
         background-color: #FFFFFF;
@@ -394,7 +395,7 @@ nav{
         border: none;
         outline: none;
         float: right;
-        padding: 14px 16px;
+        padding: 0px 16px;
         text-decoration: none;
         color: #131643;
         background-color: #ffffff1f;
