@@ -63,7 +63,7 @@ footer{
         /* Footer */
     footer{
         height: 400px;
-        width: 100%;
+        width: 1024px;
         background-color: #212529;
     }
     .footer{
@@ -126,7 +126,7 @@ footer{
     /* Footer */
     footer{
         height: 400px;
-        width: 100%;
+        width: 768px;
         background-color: #212529;
     }
     .footer{
@@ -190,8 +190,8 @@ footer{
 @media only screen and (max-width: 425px) {
     /* Footer */
     footer{
+        width: 425px;
         height: 600px;
-        width: 100%;
         background-color: #212529;
     }
     .footer{

@@ -1,6 +1,6 @@
 exports.home =async (req,res,next)=>{
     try {
-        res.render("home")
+        res.status(200).render("home")
     } catch (error) {
         console.log(error)
         next()

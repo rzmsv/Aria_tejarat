@@ -39,6 +39,7 @@
 }
 @media only screen and (max-width: 1024px) {
     .containeroverview {
+        width: 1024px;
         height: 2150px;
         background-color: #131643;
         margin-top: 30px;
@@ -46,6 +47,7 @@
         margin-bottom: 30px;
     }
     .containeroverview .main{
+        background-color: #131643;
         height: 500px;
         width: 1024px;
         margin: auto;
@@ -80,6 +82,7 @@
   }
   @media only screen and (max-width: 768px) {
     .containeroverview {
+        width: 768px;
         height: 2300px;
         background-color: #131643;
         margin-top: 30px;
@@ -87,6 +90,7 @@
         margin-bottom: 30px;
     }
     .containeroverview .main{
+        background-color: #131643;
         height: 500px;
         width: 768px;
         margin: auto;
@@ -121,6 +125,7 @@
   }
   @media only screen and (max-width: 425px) {
     .containeroverview {
+        width: 425px;
         height: 2950px;
         background-color: #131643;
         margin-top: 30px;
@@ -128,6 +133,7 @@
         margin-bottom: 30px;
     }
     .containeroverview .main{
+        background-color: #131643;
         height: 500px;
         width: 425px;
         margin: auto;

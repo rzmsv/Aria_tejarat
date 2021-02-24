@@ -475,7 +475,7 @@ nav{
     #myLinks a{
         line-height: 2;
         text-align: right;
-        margin-right: 20px;
+        padding-right: 20px;
         font-size: 17px;
     }
     
