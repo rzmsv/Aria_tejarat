@@ -21,7 +21,7 @@ const errors = require("../routes/errors")
 const app = express();
 const server = http.createServer(app);
 // db
-const mongoUrl = "mongodb://localhost:27017/aria"
+const mongoUrl = "mongodb://mongo:27017/aria"
 
 // SET
 app.set("view engine","pug")

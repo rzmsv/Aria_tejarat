@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  node:
+    build:
+      context: .
+    container_name: aria-tejarat-app
+    # restart: unless-stopped
+    ports:
+      - 3000:3000
+    networks:
+      - aria
+    volumes:
+      - ./:/usr/src/app
+
+  mongo:
+    image: mongo:4.4.3-bionic
+    container_name: aria-tejarat-db
+    # restart: unless-stopped
+    ports:
+      - 27018:27017
+    volumes:
+      - ./mongo/data:/data/db
+    networks:
+      - aria
+
+networks:
+  aria:
