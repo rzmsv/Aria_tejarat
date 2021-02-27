@@ -1,0 +1,124 @@
+.containerBusinessUnit{
+    width: 1300px;
+    height: 280px;
+    margin: auto;
+}
+.containerBusinessUnit .numError{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.containerBusinessUnit .msgError{
+    padding-bottom: -20px;
+    text-align: center;
+    /* margin-top: 200px; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+.containerBusinessUnit .homePage{
+    background-color: #46A049;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    /* margin-top: 200px; */
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-left: 598px;
+}
+@media only screen and (max-width: 1024px) {
+    .containerBusinessUnit{
+        width: 1024px;
+        margin: auto;
+    }
+    .containerBusinessUnit .numError{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .msgError{
+        padding-bottom: -20px;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .homePage{
+        background-color: #46A049;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-left: 457px;
+    }
+  }
+  
+@media only screen and (max-width: 786px) {
+    .containerBusinessUnit{
+        width: 786px;
+        margin: auto;
+    }
+    .containerBusinessUnit .numError{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .msgError{
+        padding-bottom: -20px;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .homePage{
+        background-color: #46A049;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-left: 339px;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .containerBusinessUnit{
+        width: 425px;
+        margin: auto;
+    }
+    .containerBusinessUnit .numError{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .msgError{
+        padding-bottom: -20px;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .containerBusinessUnit .homePage{
+        background-color: #46A049;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-align: center;
+        /* margin-top: 200px; */
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-left: 158px;
+    }
+  }
