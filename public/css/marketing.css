@@ -82,6 +82,7 @@
   }
   @media only screen and (max-width: 768px) {
     .containermarket  {
+        width: 768px;
         height: 800px;
         background-color: #131643;
         margin-top: 30px;
