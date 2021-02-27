@@ -1,4 +1,4 @@
-exports.business_unit = async (req,res,next)=>{
+exports.production_unit = async (req,res,next)=>{
     try {
         res.render("production-unit")
     } catch (error) {
